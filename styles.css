@@ -1,12 +1,20 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  }
+    line-height: 1.7em;
+    margin-bottom: 2rem;
+}
   
   
   #title{
     font-size:2.5rem;
     text-align:center;
     margin-top:3rem;
+    padding-top: 1em;
+  }
+
+  #image{
+    margin-left: 28vw;
+    padding-top: 1em;
   }
   
   #sub, #img-caption{
@@ -15,10 +23,31 @@ body{
   
   #header-area{
     background-color:lightgrey;
+    padding-bottom: 0.5em;
   }
   
   #tribute-info{
     background-color:lightgrey;
-    text-align:center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    
+  }
+  ul> li{
+    padding-top: 1rem;
+ 
+  }
+
+  #timeline{
+    margin-left: 21%;
   }
   
+  h3,h4{
+    text-align: center;
+  }
+
+#tagline{
+    margin-left:25rem;
+}
+
